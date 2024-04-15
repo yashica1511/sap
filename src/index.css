@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+
+body {
+    background-color: #d5b8f2;
+}
+
+.oval {
+    position: absolute;
+    top: -65px;
+    left: 705px;
+    width: 245px;
+    height: 245px;
+    background: #8353E2FF; /* secondary-500 */
+    border-radius: 50%;
+}
+
+.rectangle {
+    position: absolute;
+    top: 420px;
+    left: 1139px;
+    width: 200px;
+    height: 300px;
+    background: #8353E2FF; /* secondary-500 */
+    border-radius: 8px; /* border-xl */
+}
+
+.bigoval {
+    position: absolute;
+    top: 250px;
+    left: -80px;
+    width: 460px;
+    height: 460px;
+    background: #8353E2FF; /* secondary-500 */
+    border-radius: 50%;
+}
+
+.smalloval {
+    position: absolute;
+    top: 167px;
+    left: 1336px;
+    width: 200px;
+    height: 200px;
+    background: #8353E2FF; /* secondary-500 */
+    border-radius: 50%;
+}
+.container1{
+    position: absolute;
+    top: 46px; 
+    left: 258px; 
+    width: 1000px; 
+    height: 645px; 
+    background: #FFFFFFFF; /* white */
+    border-radius: 8px; /* border-xl */
+}
