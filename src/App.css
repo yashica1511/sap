@@ -1,18 +1,1 @@
-.bigoval {
-  position: absolute; 
-  top: 250px; 
-  left: -80px; 
-  width: 460px; 
-  height: 460px; 
-  background: #8353E2FF; /* secondary-500 */
-  border-radius: 50%; 
-}
-.smalloval {
-  position: absolute; 
-  top: 167px; 
-  left: 1336px; 
-  width: 200px; 
-  height: 200px; 
-  background: #8353E2FF; /* secondary-500 */
-  border-radius: 50%; 
-}
+

@@ -1,8 +1,7 @@
 import React from 'react';
 import './index.css';
 import MainPage from './Mainpage';
-
-function Signin1(){
+function Signin2(){
     return(
         <div>
             <MainPage/>
@@ -30,12 +29,25 @@ function Signin1(){
                             <div className="textbox mt-2">
                                 <input type="text" className="textbox w-4/5 h-15 px-3 py-2 placeholder-gray-400 border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Enter your email" />
                             </div>
-                            <div className="flex item-end">
-                              <button className="button absolute top-20 right-40 mt-6 py-2 px-4 w-20 h-10 rounded-md font-semibold focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-blue-500 text-white box">
-                                  <h5>Next</h5>
-                              </button>
-                          </div>
                         </div> 
+                        <div className="relative top-32 mt-4 left-12">
+                            <h2 className="text-2xl font-bold"><b>Password</b></h2>
+                            <div className="textbox mt-2">
+                                <input type="password" className="textbox w-4/5 h-15 px-3 py-2 placeholder-gray-400 border rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Enter your password" />
+                            </div>
+                            <div className="flex item-start">
+                                <div className="text-sm mt-2">
+                                    <a href="/forgot" className="left-10 font-medium text-black-600 hover:text-purple-500">
+                                        <h6>Forgot password?</h6>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="flex item-end">
+                              <button className="button absolute top-20 right-40 mt-14 py-2 px-4 w-20 h-10 rounded-md font-semibold focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm bg-blue-500 text-white box">
+                                  <h5>LogIn</h5>
+                              </button>
+                            </div>
+                        </div>
                     </div>
                     <div className="column2">
                         <img src='./images/study_group_2.jpg' alt="Study group" className="w-full h-full object-cover rounded-md" />
@@ -45,5 +57,4 @@ function Signin1(){
         </div>
     )
 }
-
-export default Signin1;
+export default Signin2;
