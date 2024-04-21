@@ -61,3 +61,37 @@ h6{
 .button:disabled {
     opacity: 0.4; 
 }
+.w-15{
+    width: 15%;
+}
+.h-30{
+    height: 30%;
+}
+.py-4{
+    padding-bottom: 4%;
+}
+.button1:hover {
+    color: #000000FF; /* black */
+    background: rgb(187, 85, 234);
+}
+.button1:disabled {
+    opacity: 0.4; 
+}
+.h-11{
+    height: 11%;
+}
+.h-20{
+    height: 20%;
+}
+.left-25{
+    left: 25%;
+}
+.right-25{
+    right: 25%;
+}
+.bottom-20{
+    bottom: 20%;
+}
+.bottom-40{
+    bottom: 40%;
+}
